@@ -9,3 +9,12 @@
 body {
   background: #f7f7f4;
 }
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+
+  @media (max-width: 930px) {
+    padding: 0 10px;
+  }
+}
