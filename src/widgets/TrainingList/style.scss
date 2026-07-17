@@ -2,10 +2,10 @@
   display: flex;
   flex-flow: column;
   gap: 16px;
-  width: 60%;
+  max-width: 40%;
   margin: 0 auto;
 
   @media (max-width: 1110px) {
-    width: 100%;
+    max-width: 100%;
   }
 }

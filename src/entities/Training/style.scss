@@ -53,6 +53,15 @@
       sans-serif;
   }
 
+  &__footer {
+    display: grid;
+    grid-template-columns: minmax(128px, 156px);
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-top: 2px;
+  }
+
   &__dateBadge {
     position: absolute;
     top: 5%;
@@ -159,13 +168,4 @@
       Segoe UI,
       sans-serif;
   }
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: minmax(128px, 156px);
-  justify-content: flex-end;
-  align-items: center;
-  gap: 10px;
-  padding-top: 2px;
 }
