@@ -1,7 +1,7 @@
-import type { Trainer } from "#entities/Trainer";
+import type { TrainerHeader } from "#entities/Trainer";
 import "../style.scss"
 
-export function TrainerHeader({ trainer, station }: {trainer: Trainer, station: string}) {
+export function TrainerHeader({ trainer, station }: TrainerHeader) {
     return (
         <div className="trainerHeader">
             <img className="trainerHeader__avatar" src={trainer.avatar} alt="Аватар тренера" />

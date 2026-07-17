@@ -11,7 +11,6 @@ export function TrainingList() {
                     <TrainingBox key={item.id} training={item} />
                 ))
             }
-
         </div>
     ) 
 }

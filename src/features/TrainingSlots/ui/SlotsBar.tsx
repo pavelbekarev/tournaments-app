@@ -1,6 +1,7 @@
+import type { TrainingSlots } from "../model/types";
 import "../style.scss"
 
-export function SlotsBar({maxSlots, freeSlots}: {maxSlots: number; freeSlots: number}) {
+export function SlotsBar({ maxSlots, freeSlots }: TrainingSlots) {
     return (
         <div className="slotsBar">
             {Array.from({ length: maxSlots }).map((_, index) => {

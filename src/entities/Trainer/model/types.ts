@@ -3,3 +3,8 @@ export interface Trainer {
   fullName: string;
   avatar: string;
 }
+
+export interface TrainerHeader {
+  trainer: Trainer;
+  station: string;
+}

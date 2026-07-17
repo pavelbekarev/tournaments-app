@@ -1,5 +1,6 @@
+import type { DateBadge } from "../model/types";
 import "../style.scss"
-export function DateBadge({ date }: {date: string}) {
+export function DateBadge({ date }: DateBadge) {
     const d = new Date(date);
     const month = d
         .toLocaleString("ru-RU", { month: "short" })
