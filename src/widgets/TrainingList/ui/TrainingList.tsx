@@ -5,6 +5,7 @@ import '../style.scss'
 export function TrainingList() {
     return (
         <div className="trainingList">
+            <h1 className='trainingList__title'>Запись на пробные занятия</h1>
             {
                 trainings.map((item) => (
                     <TrainingBox key={item.id} training={item} />
