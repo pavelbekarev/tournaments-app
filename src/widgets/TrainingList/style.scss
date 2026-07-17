@@ -1,0 +1,11 @@
+.trainingList {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+  max-width: 40%;
+  margin: 0 auto;
+
+  @media (max-width: 1110px) {
+    max-width: 100%;
+  }
+}
