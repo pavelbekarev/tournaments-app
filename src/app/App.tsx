@@ -1,5 +1,5 @@
 import TrainingList from "#widgets/TrainingList"
-import "./styles/App.css"
+import "./styles/App.scss"
 
 function App() {
 
