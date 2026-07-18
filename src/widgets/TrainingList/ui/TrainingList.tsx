@@ -14,7 +14,8 @@ export function TrainingList() {
             try {
                 const data = await getTrainings();
                 setTrainings(data)
-            } catch {
+            } catch (error) {
+                console.error(error);
                 alert("Произошла ошибка при загрузке данных.")
             }
             finally {
@@ -25,7 +26,7 @@ export function TrainingList() {
         fetchTrainings();
     }, [])
 
-    if (!isLoading) {
+    if (isLoading) {
         return (
             <div className="trainingList container">
                 <h2 className='trainingList__loader'>Загрузка<span className='trainingList__loader-dots'></span></h2>
