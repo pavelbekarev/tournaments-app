@@ -1,10 +1,9 @@
+import { useTrainings } from '#entities/Training/model/useTrainings'
 import TrainingBox from '#widgets/TrainingBox'
-import { use } from 'react'
 import '../style.scss'
-import type { Training } from '#entities/Training';
 
-export function TrainingList({promise}: {promise: Promise<Training[]>}) {
-    const trainings = use(promise);
+export function TrainingList() {
+    const { data: trainings } = useTrainings();
 
     return (
         <div className="trainingList container">
