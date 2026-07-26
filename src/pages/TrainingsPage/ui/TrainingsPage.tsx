@@ -1,10 +1,11 @@
 import TrainingList from "#widgets/TrainingList"
 import { Suspense } from "react"
 import "../style.scss"
+import Loader from "#shared/Loader"
 
 export function TrainingsPage() {
     return (
-        <Suspense fallback={<div>загрузка...</div>}>
+        <Suspense fallback={<Loader />}>
             <TrainingList/>
         </Suspense>
     )
