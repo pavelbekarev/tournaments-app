@@ -1,3 +1,4 @@
 import { TrainingBox } from "./ui/TrainingBox";
+import { TrainingBoxSkeleton } from "./ui/TrainingBoxSkeleton";
 
-export default TrainingBox;
+export { TrainingBox, TrainingBoxSkeleton };

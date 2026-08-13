@@ -5,6 +5,6 @@ export function getTrainings(): Promise<Training[]> {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(trainings);
-    }, 600);
+    }, 1500);
   });
 }

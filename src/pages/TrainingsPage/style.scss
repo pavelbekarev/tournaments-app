@@ -1,0 +1,23 @@
+.trainingPage {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+  max-width: 40%;
+  margin: 24px auto;
+
+  &__title {
+    font-size: 18px;
+    margin: 16px 0;
+    font-weight: 700;
+    color: var(--text);
+    font-family:
+      RF Dewi UltraBold,
+      Source Code Pro,
+      SF Pro Text,
+      SF Pro Display,
+      -apple-system,
+      BlinkMacSystemFont,
+      Segoe UI,
+      sans-serif;
+  }
+}

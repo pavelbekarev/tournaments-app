@@ -1,3 +1,4 @@
 import { TrainingList } from "./ui/TrainingList";
+import { TrainingListSkeleton } from "./ui/TrainingListSkeleton";
 
-export default TrainingList;
+export { TrainingList, TrainingListSkeleton };
